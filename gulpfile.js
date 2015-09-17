@@ -16,7 +16,7 @@ gulp.task('compileSass', function() {
 	.pipe(notify('It worked!'));
 });
 
-gulp.task('serve', function() {
+gulp.task('watch', function() {
 	gulp.watch('./scss/**/*.scss', ['compileSass']);
 });
 
