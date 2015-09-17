@@ -1,0 +1,42 @@
+@import "components/variables";
+
+.card {
+  background-color: $card-background-color;
+  border: $card-border;
+  height: $card-height;
+  margin: $card-margin;
+  padding: $card-padding;
+  width: $card-width;
+}
+.card-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+// TODO - This is the break point from HTML 5 boilerplate. How can we turn this into a variable and also make sure that it tracks what's in main.css?
+
+@media only screen and (min-width: 480px) {
+
+  header {
+    h1 {
+      margin: $nav-title-margin;
+    }
+  }
+
+  nav {
+    width: $nav-width;
+
+    a {
+      width: $nav-item-width;
+      padding: $nav-item-padding;
+      margin: $nav-item-margin;
+    }
+  }
+}
