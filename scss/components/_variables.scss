@@ -1,27 +1,17 @@
-$card-background-color: #abc;
-$card-border: 1px solid black;
-$card-width: 10rem;
-$card-height: 10rem;
-$card-margin: 1rem 1rem 1rem 0;
-$card-padding: 5px;
-//$card-title-font:
-//$card-title-color
-//$card-banner-color:
+//
+// FONTS
+//
 
-//cards need:
-//summary...
-//description
-//actions (reveal description)
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Domine:400,700);
+$serif: "Domine", serif;
+$sans-serif: "Montserrat", sans-serif;
 
-// glossary card:
-// change to form to add new glossary or tip or info
+//
+// COLORS
+//
 
-//hover state for shadow / focus (card size gets bigger when hovered on)
-
-$menu-items: 6;
-$nav-item-margin: 0 1rem 0 0;
-$nav-item-padding: .5rem;
-$nav-margin: 0 0 0 1rem;
-$nav-title-margin: 0.5rem 0.5rem 0.5rem 0;
-$nav-width: 100%;
-$nav-item-width: $nav-width / $menu-items;
+$learning-color: #88A825;
+$html-color: #55245E;
+$css-color: #911146;
+$js-color: #CF4A30;
+$tool-color: #ED8C2B;
