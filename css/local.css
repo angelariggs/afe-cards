@@ -21,17 +21,107 @@ dl {
   margin-top: 0; }
 
 .learning-card_title {
-  background-color: #bbda59;
   padding: 0; }
   .learning-card_title dt {
     font-family: "Roboto Slab", serif;
     text-align: center;
-    padding: 5px; }
+    padding: 5px;
+    color: white; }
 
-.learning-card_def dd {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 10px; }
+.learning-card_def {
+  background-color: #bbda59; }
+  .learning-card_def dd {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 10px; }
+
+.html-card {
+  background-color: #55245E;
+  border-radius: 2px; }
+
+dl {
+  margin-top: 0; }
+
+.html-card_title {
+  padding: 0; }
+  .html-card_title dt {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 5px;
+    color: white; }
+
+.html-card_def {
+  background-color: #9840a8; }
+  .html-card_def dd {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 10px; }
+
+.css-card {
+  background-color: #911146;
+  border-radius: 2px; }
+
+dl {
+  margin-top: 0; }
+
+.css-card_title {
+  padding: 0; }
+  .css-card_title dt {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 5px;
+    color: white; }
+
+.css-card_def {
+  background-color: #e52373; }
+  .css-card_def dd {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 10px; }
+
+.javascript-card {
+  background-color: #CF4A30;
+  border-radius: 2px; }
+
+dl {
+  margin-top: 0; }
+
+.javascript-card_title {
+  padding: 0; }
+  .javascript-card_title dt {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 5px;
+    color: white; }
+
+.javascript-card_def {
+  background-color: #e29283; }
+  .javascript-card_def dd {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 10px; }
+
+.tools-card {
+  background-color: #ED8C2B;
+  border-radius: 2px; }
+
+dl {
+  margin-top: 0; }
+
+.tools-card_title {
+  padding: 0; }
+  .tools-card_title dt {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 5px;
+    color: white; }
+
+.tools-card_def {
+  background-color: #f5bf89; }
+  .tools-card_def dd {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 10px; }
 
 .main-nav_links {
   font-family: "Roboto Slab", serif;
