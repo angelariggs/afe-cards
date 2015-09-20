@@ -2,14 +2,14 @@
 // FONTS
 //
 
-// @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Slab:400,300|Roboto+Condensed:400italic,400);
-// $serif: "Roboto Slab", serif;
-// $sans-serif: "Roboto", sans-serif;
-// $display: "Roboto Condensed", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Slab:400,300|Roboto+Condensed:400italic,400);
+$serif: "Roboto Slab", serif;
+$sans-serif: "Roboto", sans-serif;
+$display: "Roboto Condensed", sans-serif;
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Domine:400,700);
-$serif: "Domine", serif;
-$sans-serif: "Montserrat", sans-serif;
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Domine:400,700);
+// $serif: "Domine", serif;
+// $sans-serif: "Montserrat", sans-serif;
 
 //
 // COLORS
@@ -27,8 +27,8 @@ $tools-color: #ED8C2B;
 
 $card-background-color: #abc;
 $card-border: 1px solid red;
-$card-width: 10rem;
-$card-height: 10rem;
+$card-width: 11rem;
+$card-height: 13rem;
 $card-margin: 1rem 1rem 1rem 0;
 $card-padding: 5px;
 

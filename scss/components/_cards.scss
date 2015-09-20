@@ -7,15 +7,16 @@
   //border: $card-border;
   height: $card-height;
   margin: $card-margin;
-  padding: $card-padding;
+  padding: 0;
   width: $card-width;
+  box-shadow: 2px 2px 5px gray;
 }
+
 .card-container {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .learning-card {
@@ -29,17 +30,19 @@ dl {
 
 .learning-card_title {
 	background-color: lighten($learning-color, 20%);
+	padding: 0;
 	dt {
-		font-family: $sans-serif;
+		font-family: $serif;
 		text-align: center;
+		padding: 5px;
 	}
 }
 
 .learning-card_def {
 	dd {
-	font-family: $serif;
-	margin: 0;
-	padding: 5px;
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
 	}
 }
 
