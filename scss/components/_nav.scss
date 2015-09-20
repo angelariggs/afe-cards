@@ -2,10 +2,37 @@
 //NAV STYLING
 //
 
-$menu-items: 6;
-$nav-item-margin: 0 1rem 0 0;
-$nav-item-padding: .5rem;
-$nav-margin: 0 0 0 1rem;
-$nav-title-margin: 0.5rem 0.5rem 0.5rem 0;
-$nav-width: 100%;
-$nav-item-width: $nav-width / $menu-items;
+.main-nav_links {
+	font-family: $serif;
+	font-size: 1.4em;
+}
+
+.learning {
+	a {
+		background-color: $learning-color;
+	}
+}
+
+.html {
+	a {
+		background-color: $html-color;
+	}
+}
+
+.css {
+	a {
+		background-color: $css-color;
+	}
+}
+
+.javascript {
+	a {
+		background-color: $javascript-color;
+	}
+}
+
+.tools {
+	a {
+		background-color: $tools-color;
+	}
+}

@@ -2,12 +2,183 @@
 // CARD STYLING
 //
 
-$card-background-color: #abc;
-$card-border: 1px solid red;
-$card-width: 10rem;
-$card-height: 10rem;
-$card-margin: 1rem 1rem 1rem 0;
-$card-padding: 5px;
+.card {
+  background-color: $card-background-color;
+  //border: $card-border;
+  height: $card-height;
+  margin: $card-margin;
+  padding: 0;
+  width: $card-width;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.card-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+//
+// LEARNING CARDS
+//
+
+.learning-card {
+	background-color: $learning-color;
+	border-radius: 2px;
+}
+
+dl {
+	margin-top: 0;
+}
+
+.learning-card_title {
+	padding: 0;
+	dt {
+		font-family: $serif;
+		text-align: center;
+		padding: 5px;
+		color: white;
+	}
+}
+
+.learning-card_def {
+	background-color: lighten($learning-color, 20%);
+	dd {
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+//
+//HTML CARDS
+//
+
+.html-card {
+	background-color: $html-color;
+	border-radius: 2px;
+}
+
+dl {
+	margin-top: 0;
+}
+
+.html-card_title {
+	padding: 0;
+	dt {
+		font-family: $serif;
+		text-align: center;
+		padding: 5px;
+		color: white;
+	}
+}
+
+.html-card_def {
+	background-color: lighten($html-color, 20%);
+	dd {
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+//
+// CSS/SASS CARDS
+//
+
+.css-card {
+	background-color: $css-color;
+	border-radius: 2px;
+}
+
+dl {
+	margin-top: 0;
+}
+
+.css-card_title {
+	padding: 0;
+	dt {
+		font-family: $serif;
+		text-align: center;
+		padding: 5px;
+		color: white;
+	}
+}
+
+.css-card_def {
+	background-color: lighten($css-color, 20%);
+	dd {
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+//
+// JAVASCRIPT
+//
+
+.javascript-card {
+	background-color: $javascript-color;
+	border-radius: 2px;
+}
+
+dl {
+	margin-top: 0;
+}
+
+.javascript-card_title {
+	padding: 0;
+	dt {
+		font-family: $serif;
+		text-align: center;
+		padding: 5px;
+		color: white;
+	}
+}
+
+.javascript-card_def {
+	background-color: lighten($javascript-color, 20%);
+	dd {
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+//
+// TOOLS CARDS
+//
+
+.tools-card {
+	background-color: $tools-color;
+	border-radius: 2px;
+}
+
+dl {
+	margin-top: 0;
+}
+
+.tools-card_title {
+	padding: 0;
+	dt {
+		font-family: $serif;
+		text-align: center;
+		padding: 5px;
+		color: white;
+	}
+}
+
+.tools-card_def {
+	background-color: lighten($tools-color, 20%);
+	dd {
+		font-family: $sans-serif;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
 //$card-title-font:
 //$card-title-color
 //$card-banner-color:
