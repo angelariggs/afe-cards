@@ -382,6 +382,20 @@ button {
       margin: 0 1rem 0 0; } }
 
 body {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 26px; }
+  body h2 {
+    font-family: "Roboto Slab", serif;
+    padding-top: 1.5em; }
+    body h2#learning {
+      color: #88A825; }
+    body h2#html {
+      color: #55245E; }
+    body h2#css {
+      color: #911146; }
+    body h2#javascript {
+      color: #CF4A30; }
+    body h2#tools {
+      color: #ED8C2B; }
+  body p {
+    font-family: "Roboto", sans-serif; }
