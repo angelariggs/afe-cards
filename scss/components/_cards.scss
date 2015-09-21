@@ -1,16 +1,6 @@
 //
-// CARD STYLING
+// GENERAL CARD STYLING
 //
-
-.card {
-  background-color: $card-background-color;
-  //border: $card-border;
-  height: $card-height;
-  margin: $card-margin;
-  padding: 0;
-  width: $card-width;
-  box-shadow: 2px 2px 5px gray;
-}
 
 .card-container {
   align-items: flex-start;
@@ -19,36 +9,100 @@
   flex-wrap: wrap;
 }
 
-//
-// LEARNING CARDS
-//
-
-.learning-card {
-	background-color: $learning-color;
-	border-radius: 2px;
+.card {
+  background-color: $card-background-color;
+  height: $card-height;
+  margin: $card-margin;
+  padding: 0;
+  width: $card-width;
+  box-shadow: $card-box-shadow;
+  &:hover {
+  	transition: all 200ms ease-in;
+  	transform: scale(1.2);
+  }
+  border-radius: 2px;
 }
 
 dl {
 	margin-top: 0;
 }
 
-.learning-card_title {
+.card_title {
 	padding: 0;
-	dt {
-		font-family: $serif;
-		text-align: center;
-		padding: 5px;
-		color: white;
+	&.learning {
+		background-color: $learning-color;
+	}
+	&.html {
+		background-color: $html-color;
+	}
+	&.css {
+		background-color: $css-color;
+	}
+	&.javascript {
+		background-color: $javascript-color;
+	}
+	&.tools {
+		background-color: $tools-color;
 	}
 }
 
-.learning-card_def {
-	background-color: lighten($learning-color, 20%);
-	dd {
-		font-family: $sans-serif;
-		margin: 0;
-		padding: 10px;
+dt {
+	font-family: $serif;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+dd {
+	font-family: $sans-serif;
+	margin: 0;
+	padding: 10px;
+}
+
+.card_action-bar {
+	right: 0;
+	padding: 0;
+	border-top: 1px solid #E0E0E0;
+}
+
+.card_action-bar_button {
+	width: $card-width;
+	outline-style: none;
+	position: relative;
+	display: inline-block;
+	&.learning {
+		color: $learning-color;
 	}
+	&.html {
+		color: $html-color;
+	}
+	&.css {
+		color: $css-color;
+	}
+	&.javascript {
+		color: $javascript-color;
+	}
+	&.tools {
+		color: $tools-color;
+	}
+}
+
+button {
+	border: none;
+	background: transparent;
+}
+
+
+//
+// LEARNING CARDS
+//
+
+.learning-card {
+
+}
+
+.learning-card_def {
+	background-color: white;
 }
 
 //
@@ -56,31 +110,11 @@ dl {
 //
 
 .html-card {
-	background-color: $html-color;
-	border-radius: 2px;
-}
 
-dl {
-	margin-top: 0;
-}
-
-.html-card_title {
-	padding: 0;
-	dt {
-		font-family: $serif;
-		text-align: center;
-		padding: 5px;
-		color: white;
-	}
 }
 
 .html-card_def {
-	background-color: lighten($html-color, 20%);
-	dd {
-		font-family: $sans-serif;
-		margin: 0;
-		padding: 10px;
-	}
+	background-color: white;
 }
 
 //
@@ -88,31 +122,11 @@ dl {
 //
 
 .css-card {
-	background-color: $css-color;
-	border-radius: 2px;
-}
 
-dl {
-	margin-top: 0;
-}
-
-.css-card_title {
-	padding: 0;
-	dt {
-		font-family: $serif;
-		text-align: center;
-		padding: 5px;
-		color: white;
-	}
 }
 
 .css-card_def {
-	background-color: lighten($css-color, 20%);
-	dd {
-		font-family: $sans-serif;
-		margin: 0;
-		padding: 10px;
-	}
+	background-color: white;
 }
 
 //
@@ -120,31 +134,11 @@ dl {
 //
 
 .javascript-card {
-	background-color: $javascript-color;
-	border-radius: 2px;
-}
 
-dl {
-	margin-top: 0;
-}
-
-.javascript-card_title {
-	padding: 0;
-	dt {
-		font-family: $serif;
-		text-align: center;
-		padding: 5px;
-		color: white;
-	}
 }
 
 .javascript-card_def {
-	background-color: lighten($javascript-color, 20%);
-	dd {
-		font-family: $sans-serif;
-		margin: 0;
-		padding: 10px;
-	}
+	background-color: white;
 }
 
 //
@@ -152,31 +146,11 @@ dl {
 //
 
 .tools-card {
-	background-color: $tools-color;
-	border-radius: 2px;
-}
-
-dl {
-	margin-top: 0;
-}
-
-.tools-card_title {
-	padding: 0;
-	dt {
-		font-family: $serif;
-		text-align: center;
-		padding: 5px;
-		color: white;
-	}
+	
 }
 
 .tools-card_def {
-	background-color: lighten($tools-color, 20%);
-	dd {
-		font-family: $sans-serif;
-		margin: 0;
-		padding: 10px;
-	}
+	background-color: white;
 }
 
 //$card-title-font:
