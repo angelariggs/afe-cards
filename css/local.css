@@ -264,147 +264,108 @@ nav a:hover {
   h3 {
     page-break-after: avoid; } }
 
-.card {
-  background-color: #abc;
-  height: 13rem;
-  margin: 1rem 1rem 1rem 0;
-  padding: 0;
-  width: 11rem;
-  box-shadow: 2px 2px 5px gray; }
-
 .card-container {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
 
-.learning-card {
-  background-color: #88A825;
+.card {
+  background-color: white;
+  height: 13rem;
+  margin: 1rem 1rem 1rem 0;
+  padding: 0;
+  width: 11rem;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
   border-radius: 2px; }
+  .card:hover {
+    transition: all 200ms ease-in;
+    transform: scale(1.2); }
 
 dl {
   margin-top: 0; }
 
-.learning-card_title {
+.card_title {
   padding: 0; }
-  .learning-card_title dt {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 5px;
-    color: white; }
+  .card_title.learning {
+    background-color: #88A825; }
+  .card_title.html {
+    background-color: #55245E; }
+  .card_title.css {
+    background-color: #911146; }
+  .card_title.javascript {
+    background-color: #CF4A30; }
+  .card_title.tools {
+    background-color: #ED8C2B; }
+
+dt {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding: 5px;
+  color: white; }
+
+dd {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 10px; }
+
+.card_action-bar {
+  right: 0;
+  padding: 0;
+  border-top: 1px solid #E0E0E0; }
+
+.card_action-bar_button {
+  width: 11rem;
+  outline-style: none;
+  position: relative;
+  display: inline-block; }
+  .card_action-bar_button.learning {
+    color: #88A825; }
+  .card_action-bar_button.html {
+    color: #55245E; }
+  .card_action-bar_button.css {
+    color: #911146; }
+  .card_action-bar_button.javascript {
+    color: #CF4A30; }
+  .card_action-bar_button.tools {
+    color: #ED8C2B; }
+
+button {
+  border: none;
+  background: transparent; }
 
 .learning-card_def {
-  background-color: #bbda59; }
-  .learning-card_def dd {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 10px; }
-
-.html-card {
-  background-color: #55245E;
-  border-radius: 2px; }
-
-dl {
-  margin-top: 0; }
-
-.html-card_title {
-  padding: 0; }
-  .html-card_title dt {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 5px;
-    color: white; }
+  background-color: white; }
 
 .html-card_def {
-  background-color: #9840a8; }
-  .html-card_def dd {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 10px; }
-
-.css-card {
-  background-color: #911146;
-  border-radius: 2px; }
-
-dl {
-  margin-top: 0; }
-
-.css-card_title {
-  padding: 0; }
-  .css-card_title dt {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 5px;
-    color: white; }
+  background-color: white; }
 
 .css-card_def {
-  background-color: #e52373; }
-  .css-card_def dd {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 10px; }
-
-.javascript-card {
-  background-color: #CF4A30;
-  border-radius: 2px; }
-
-dl {
-  margin-top: 0; }
-
-.javascript-card_title {
-  padding: 0; }
-  .javascript-card_title dt {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 5px;
-    color: white; }
+  background-color: white; }
 
 .javascript-card_def {
-  background-color: #e29283; }
-  .javascript-card_def dd {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 10px; }
-
-.tools-card {
-  background-color: #ED8C2B;
-  border-radius: 2px; }
-
-dl {
-  margin-top: 0; }
-
-.tools-card_title {
-  padding: 0; }
-  .tools-card_title dt {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 5px;
-    color: white; }
+  background-color: white; }
 
 .tools-card_def {
-  background-color: #f5bf89; }
-  .tools-card_def dd {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 10px; }
+  background-color: white; }
 
 .main-nav_links {
   font-family: "Roboto Slab", serif;
   font-size: 1.4em; }
 
-.learning a {
+.learning_nav a {
   background-color: #88A825; }
 
-.html a {
+.html_nav a {
   background-color: #55245E; }
 
-.css a {
+.css_nav a {
   background-color: #911146; }
 
-.javascript a {
+.javascript_nav a {
   background-color: #CF4A30; }
 
-.tools a {
+.tools_nav a {
   background-color: #ED8C2B; }
 
 /* ==========================================================================
