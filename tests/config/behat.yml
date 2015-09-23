@@ -1,0 +1,23 @@
+default:
+  paths:
+    features: '../features'
+  formatter:
+    parameters:
+      language: 'en'
+  extensions:
+    Behat\MinkExtension\Extension:
+      browser_name: chrome
+      default_session: selenium2
+      javascript_session: selenium2
+      selenium2: ~
+    Drupal\DrupalExtension\Extension:
+      blackbox: ~
+      text:
+        log_out: 'Log out'
+      region_map:
+        content: '#content'
+      selectors:
+        message_selector: '.messages.status'
+
+imports:
+  - behat.local.yml
